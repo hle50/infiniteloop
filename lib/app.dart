@@ -11,7 +11,7 @@ class AppHome extends StatefulWidget {
 }
 
 class _AppHomeState extends State<AppHome> {
-  int transTime = 15;
+  int transTime = 60;
   var data = [
     "Live as if you were to die tomorrow. Learn as if you were to live forever",
     "We must not allow other people’s limited perceptions to define us."
@@ -31,7 +31,7 @@ class _AppHomeState extends State<AppHome> {
     "If you\'re not hopeful and optimistic, then you just give up. You have to take the long hard look and just believe that if you're consistent, you will succeed."
   ];
   static MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-    keywords: <String>['money', 'love', 'book'],
+    keywords: <String>['money', 'love', 'book', 'cellphone', 'game', 'pc'],
     childDirected: false,
 
   );
